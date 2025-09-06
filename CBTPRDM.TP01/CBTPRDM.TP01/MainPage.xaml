@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CBTPRDM.TP01.MainPage"
+             BackgroundColor="Black"
+             Shell.NavBarIsVisible="True">
+    <Shell.TitleView>
+        <Grid HorizontalOptions="FillAndExpand">
+            <Label Text="Aplicação Teste"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   TextColor="White"
+                   FontSize="20"
+                   FontAttributes="Bold" />
+        </Grid>
+    </Shell.TitleView>
+    <ScrollView>
+        <VerticalStackLayout Padding="30,20"
+                             Spacing="15"
+                             VerticalOptions="Center">
+            <Grid RowDefinitions="Auto, Auto"
+                  ColumnDefinitions="Auto, *"
+                  RowSpacing="10" >
+                <Label Grid.Row="0"
+                       Grid.Column="0"
+                       Text="ID:"
+                       TextColor="White"
+                       VerticalOptions="Center" />
+
+                <Entry Grid.Row="0"
+                       Grid.Column="1"
+                       x:Name="IdEntry"
+                       Placeholder="Digite seu ID" />
+
+                <Label Grid.Row="1" 
+                       Grid.Column="0" 
+                       Text="Pass:" 
+                       TextColor="White" 
+                       VerticalOptions="Center"/>
+
+                <Entry Grid.Row="1" 
+                       Grid.Column="1" 
+                       x:Name="PassEntry" 
+                       Placeholder="Digite sua senha" IsPassword="True"/>
+            </Grid>
+
+            <Button x:Name="OkButton"
+                    Text="OK"
+                    Clicked="OnOkClicked" />
+
+            <Button x:Name="LimparButton"
+                    Text="Limpar"
+                    Clicked="OnLimparClicked" />
+
+            <Button x:Name="CreditosButton"
+                    Text="Créditos"
+                    Clicked="OnCreditosClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
