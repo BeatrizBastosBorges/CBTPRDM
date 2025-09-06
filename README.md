@@ -40,6 +40,3 @@ Este projeto foi desenvolvido por:
 
 * `[Beatriz Bastos Borges]`
 * `[Miguel Luizatto Alves]`
-* `[Nome do Aluno 2]`
--   O corpo do e-mail deve conter o nome da dupla.
--   Um vídeo ou GIF mostrando o programa em funcionamento deve ser anexado ou enviado via link.
