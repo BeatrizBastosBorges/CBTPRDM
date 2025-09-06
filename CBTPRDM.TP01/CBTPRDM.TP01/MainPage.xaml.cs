@@ -1,4 +1,5 @@
-﻿namespace CBTPRDM.TP01
+// Desenvolvido por Beatriz Bastos Borges e Miguel Luizatto Alves
+namespace CBTPRDM.TP01
 {
     public partial class MainPage : ContentPage
     {
