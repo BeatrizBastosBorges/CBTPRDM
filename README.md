@@ -38,5 +38,5 @@ Assista ao vídeo abaixo para ver a aplicação em funcionamento:
 
 Este projeto foi desenvolvido por:
 
-* `[Beatriz Bastos Borges]`
-* `[Miguel Luizatto Alves]`
+* `Beatriz Bastos Borges`
+* `Miguel Luizatto Alves`
